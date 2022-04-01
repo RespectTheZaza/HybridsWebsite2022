@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap");
 :root {
-  --primary-color: rgb(211, 211, 211);
+  --primary-color: rgb(255, 255, 255);
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .navbar {
-  background: white;
+  background: #1107a7;
   padding: 1em;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 a {
-  color: #5c00c5;
+  color: #5300d8;
 }
 
 section {
@@ -58,5 +59,49 @@ section {
 
 .jersey {
   text-align: center;
+}
+
+.left-col {
+  text-align: center;
+}
+
+.subhead {
+  font-size: large;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: .3em;
+  text-align: center;
+  padding: 2em 8em 0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #da1010;
+}
+
+.primary-cta {
+  background: var(--primary-color);
+  color: #7400aa;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .1em .3em;
+  font-size: 1.4em;
+  border-radius: .5em;
+  padding-top: 0.1%;
+  display: inline-block;
+  margin-right: 8%;
+}
+
+.subscribe-cta {
+  background: var(--primary-color);
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  padding: .2em;
+  border-radius: .5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: .0em;
+  margin-top: .2em;
 }
 /*# sourceMappingURL=main.css.map */
