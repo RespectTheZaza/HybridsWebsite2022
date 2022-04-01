@@ -43,4 +43,20 @@ body {
 a {
   color: #5c00c5;
 }
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.features-sections {
+  text-align: center;
+}
+
+.jersey {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
