@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap");
 :root {
-  --primary-color: rgb(255, 255, 255);
+  --primary-color: rgb(153, 27, 27);
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background: #1107a7;
+  background: red;
   padding: 1em;
 }
 
@@ -50,6 +50,7 @@ section {
 }
 
 .hero {
+  background-color: black;
   text-align: center;
 }
 
@@ -66,42 +67,83 @@ section {
 }
 
 .subhead {
+  font-style: oblique;
   font-size: large;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: .3em;
   text-align: center;
-  padding: 2em 8em 0em;
   text-transform: uppercase;
   font-weight: bold;
-  color: #da1010;
+  color: #ffdbdb;
 }
 
 .primary-cta {
-  background: var(--primary-color);
-  color: #7400aa;
+  color: #9f36c9;
   text-decoration: none;
   text-transform: uppercase;
+  border-style: solid;
+  border-color: red blue blue red;
   text-align: center;
-  padding: .1em .3em;
-  font-size: 1.4em;
-  border-radius: .5em;
+  padding: .0em .2em;
+  font-size: 1.3em;
   padding-top: 0.1%;
   display: inline-block;
-  margin-right: 8%;
+  margin-right: 7%;
+  margin-top: -8em;
 }
 
 .subscribe-cta {
-  background: var(--primary-color);
+  border-color: #0303be rgba(230, 0, 0, 0.493) red blue;
+  color: #9f36c9;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   text-align: right;
   padding: .2em;
   border-radius: .5em;
+  border-style: solid;
 }
 
 h1 {
   font-size: 1.5em;
   line-height: .0em;
   margin-top: .2em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  background-color: #00039e;
+  position: fixed;
+  z-index: 999;
+  width: 30%;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
