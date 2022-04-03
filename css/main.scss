@@ -157,7 +157,8 @@ nav {
 }
 
 .team-cta {
-    color: white;
+    color: rgb(230, 15, 0);
+    background-color: rgb(0, 0, 0);
     font-size: 1.5em;
     text-align: center;
     list-style-type: none;
@@ -166,6 +167,22 @@ nav {
     border: solid;
     border-color: red blue blue red;
     border-radius: .9em;
+    border-bottom-style: hidden;
     letter-spacing: .3em;
-    font-size: bold;
+    font-weight: bold;
+}
+.cap {
+    color: white
+}
+
+.main {
+    color: white;
+}
+
+.flex {
+    color: white;
+}
+
+.sub {
+    color: white;
 }
