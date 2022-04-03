@@ -146,4 +146,36 @@ nav li a:hover {
   margin: .5em;
   cursor: pointer;
 }
+
+.team-cta {
+  color: white;
+  font-size: 1.5em;
+  padding: .5em;
+  list-style-type: none;
+  border-radius: .5em;
+  border-style: solid;
+  text-align: center;
+}
+
+.vods {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 70%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: oblique;
+  letter-spacing: .3em;
+  font-size: bold;
+  margin: 1.5em;
+}
+
+.match {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: .2em;
+}
 /*# sourceMappingURL=main.css.map */
