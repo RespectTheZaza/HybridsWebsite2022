@@ -50,11 +50,6 @@ section {
   padding: 5em 2em;
 }
 
-.hero {
-  background-color: black;
-  text-align: center;
-}
-
 .features-sections {
   text-align: center;
   font-weight: bold;
@@ -204,7 +199,6 @@ nav li a:hover {
 
 .aboutme-cta {
   color: #e60f00;
-  background-color: black;
   font-size: 1.5em;
   text-align: center;
   list-style-type: none;
