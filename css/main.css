@@ -12,7 +12,8 @@ body {
 
 .navbar {
   background: red;
-  padding: 1em;
+  padding: .8em .5em;
+  margin: 0;
 }
 
 .navbar .logo {
@@ -56,6 +57,13 @@ section {
 
 .features-sections {
   text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3em;
+}
+
+.features-sections-aboutme {
+  text-align: center;
 }
 
 .jersey {
@@ -64,6 +72,17 @@ section {
 
 .left-col {
   text-align: center;
+}
+
+.subhead {
+  font-style: oblique;
+  font-size: larger;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: .3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffdbdb;
 }
 
 .subhead {
@@ -181,5 +200,37 @@ nav li a:hover {
 
 .jersey {
   color: white;
+}
+
+.aboutme-cta {
+  color: #e60f00;
+  background-color: black;
+  font-size: 1.5em;
+  list-style-type: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: oblique;
+  border: solid;
+  border-color: red blue blue red;
+  border-radius: .9em;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  text-align: center;
+  padding: 0em;
+  letter-spacing: .3em;
+  font-weight: bold;
+}
+
+.top {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: oblique;
+}
+
+.montage {
+  font-style: oblique;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
