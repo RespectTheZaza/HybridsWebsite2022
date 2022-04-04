@@ -214,16 +214,15 @@ nav {
         color: rgb(230, 15, 0);
         background-color: rgb(0, 0, 0);
         font-size: 1.5em;
+        text-align: center;
         list-style-type: none;
         font-family: 'Roboto Condensed', sans-serif;
         font-style: oblique;
         border: solid;
         border-color: red blue blue red;
         border-radius: .9em;
-        border-top-style: hidden;
         border-bottom-style: hidden;
-        text-align: center;
-        padding: 0em;
+        border-top: none;
         letter-spacing: .3em;
         font-weight: bold;
 }
