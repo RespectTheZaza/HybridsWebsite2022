@@ -57,6 +57,8 @@ section {
     font-weight: bold;
     color: white;
     font-size: 1.3em;
+    margin: -5%;
+    margin-left: -3%;
 }
 
 .features-sections-aboutme {
@@ -83,12 +85,13 @@ section {
     color: rgb(255, 219, 219) ;
 }
 
-.subhead {
+.subhead2 {
     font-style: oblique;
     font-size: larger;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: .3em;
     text-align: center;
+    margin-left: 4%;
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(255, 219, 219) ;
@@ -203,4 +206,30 @@ nav {
 
 .jersey {
     color: white;
+}
+
+.gb {
+    text-align: center;
+}
+
+.cmg {
+    text-align: center;
+}
+
+.twitch {
+    text-align: center;
+    margin-right: 3%;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.match {
+    margin-bottom: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: oblique;
+    color: blue;
+    font-size: 1.3em;
+    margin-left: 1%;
 }
