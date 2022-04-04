@@ -5,7 +5,6 @@
 }
 
 body {
-  background: #000000;
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -199,6 +198,7 @@ nav li a:hover {
 
 .aboutme-cta {
   color: #e60f00;
+  background-color: black;
   font-size: 1.5em;
   text-align: center;
   list-style-type: none;
