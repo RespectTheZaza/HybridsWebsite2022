@@ -42,6 +42,14 @@ body {
   cursor: pointer;
 }
 
+.primary-nav {
+  list-style-type: none;
+}
+
+.secondary-nav {
+  list-style-type: none;
+}
+
 a {
   color: #5300d8;
 }
@@ -134,7 +142,6 @@ nav {
   background-color: #00039e;
   position: fixed;
   z-index: 999;
-  width: 30%;
   right: 0;
   top: 0;
   height: 100vh;
